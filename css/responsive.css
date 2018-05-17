@@ -1,0 +1,330 @@
+@media screen and (max-width: 1199px){
+	main #gallery .galleryPictures .gallery__items{
+		width: 70%;
+		float: none;
+	}
+	main #gallery .gallerySecond img{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	header .mainBlock{
+		margin-top: 160px;
+	}
+	header .mainScroll{
+		margin-top: 0;
+	}
+	main #services .tomato .tomatoList{
+		margin-top: 9%;
+    	margin-left: 5%;
+	}
+	main #blog .blogPictures .blogItems .item_list h4{
+		margin-bottom: 70px;
+	}
+	main #contact .mainForm div{
+		margin-left: 70px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	header{
+		background-size: auto;
+	}
+	header .mainNav {
+		display: block;
+	}
+	header .nav__main{
+		display: inline-flex;
+	}
+	header .nav__main .nav_list{
+		margin-left: 15px;
+	}
+	header .mainScroll{
+		display: none;
+	}
+	header .mainBlock .block_button{
+		margin-bottom: 25px;
+	}
+	main #about .strawberry{
+		display: block;
+	}
+	main #about .strawberry .mainStrawberry{
+		margin: 0;
+		width: 100%;
+	}
+	main #about .strawberry .mainStrawberry .strawberry__text{
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	main #about .strawberry .picStrawberry{
+		margin: 0;
+	}
+	header .mainBlock{
+		margin-top: 80px;
+	}
+	header .mainScroll{
+		margin-top: 15px;
+	}
+	main #services .tomato{
+		display: block;
+		margin: 0 auto;
+	}
+	main #services .tomato .tomatoList{
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	main #services .tomato .picTomato{
+		width: 100%;
+		margin-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 0px;
+	}
+	main #gallery .mainGallery{
+		width: 100%;
+		padding: 20px 0;
+	}
+	main #gallery .galleryPictures{
+		margin-top: 0;
+	}
+	main #gallery .galleryPictures .gallery__items,
+	main #gallery .gallerySecond img{
+		width: 100%;
+	}
+	main #gallery .view_button{
+		margin-bottom: 50px;
+	}
+	main #subscribe .mainSubscribe{
+		padding: 30px 0;
+	}
+	main #subscribe .mainSubscribe .subscribe_text{
+		width: 100%;
+	}
+	main #subscribe .mainSubscribe .subscribe_mail{
+		width: 50%;
+	}
+	main #contact .mainContact{
+		margin-top: 0px;
+	}
+	main #contact .mainContact p{
+		padding: 15px 28px;;
+	}
+	main #contact .mainForm{
+		width: 100%;
+		text-align: center;
+	}
+	main #contact .mainForm form{
+		width: 100%;
+	}
+	.main #contact .mainForm form input, main #contact .mainForm form textarea{
+		width: 100%;
+	}
+	main #contact .mainForm div{
+		display: inline-block;
+	    margin-left: 0px;
+	    margin-bottom: 30px;
+	}
+	main #contact .mainForm form .contactArea{
+		min-width: 320px;
+		width: 100%;
+		height: 15px;
+	}
+	main #contact .mainContact{
+		padding-top: 40px;
+	}
+	main #blog .mainBlog{
+		width: 100%;
+		padding: 30px 0;
+	}
+	main #blog .blogPictures{
+		display: block;
+		width: 100%;
+	}
+	main #blog .blogPictures .blogItems .overlay::after{
+		display: none;
+	}
+	main #blog .blogPictures .blogItems .overlay img{
+		width: 100%;
+	}
+	main #blog .blogPictures .blogItems .item_list p{
+		margin-top: 40px;
+	}
+	main #blog .blogPictures .blogItems .item_list .minText{
+		color: #54a63d;
+		margin-top: 38px;
+	}
+	main #blog .blog_button{
+		margin: 45px 0;
+	}
+	footer .mainFooter{
+		display: block;
+		text-align: center;
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 414px){
+	header{
+		background-size:auto;
+	}
+	header .mainNav{
+		display: block;
+		padding-top: 20px;
+	}
+	header .nav__main{
+		display: block;
+	}
+	header .nav__main .nav_list{
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	header .mainBlock{
+		text-align: center;
+		width: 100%;
+		margin-top: 30px;
+	}
+	header .mainScroll{
+		display: none;
+	}
+	header .mainBlock .block_button{
+		margin-bottom: 20px;
+	}
+	main #about .strawberry{
+		display: block;
+	}
+	main #about .strawberry{
+		display: block;
+		width: 100%;
+	}
+	main #about .strawberry .picStrawberry{
+		margin: 0 auto;
+	}
+	main #about .strawberry .mainStrawberry{
+		margin: 0;
+		width: 100%;
+	}
+	main #about .strawberry .mainStrawberry .strawberry__text{
+		margin: 0;
+		padding: 10px 0;
+	}
+	main #about .strawberry .mainStrawberry .strawberry__head{
+		text-align: center;
+	}
+	main #services .tomato{
+		display: block;
+	}
+	main #services .tomato .tomatoList{
+		margin-top: 0;
+	    margin-left: 0px;
+	    padding-top: 50px;
+	    width: 100%;
+	}
+	main #services .tomato .tomatoList .tomatoBox .tomato__button{
+		width: 70%;
+	}
+
+	main #services .tomato .picTomato{
+		position: relative;
+	    width: 100%;
+	    text-align: center;
+	    margin: 0;
+	    padding: 15px;
+	}
+	main #services .tomato .picTomato img{
+		width: 100%;
+	}
+	main #services .tomato .picTomato h2{
+		font-size: 4.625em;
+	}
+	main #gallery .mainGallery{
+		padding: 30px 0 0;
+	    margin: 0 auto;
+	    text-align: center;
+	    width: 100%;
+	}
+	main #gallery .galleryPictures{
+		margin-top: 20px;
+	}
+	main #gallery .galleryPictures .gallery__items,
+	main #gallery .gallerySecond img{
+		width: 100%;
+	}
+	main #gallery .galleryPictures .gallery_blackberry{
+		margin: 0;
+	}
+	main #gallery .gallerySecond{
+		margin: 0;
+	}
+
+	main #gallery .view_button{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	main #subscribe .mainSubscribe{
+		text-align: center;
+		margin-bottom: 0;
+		padding-bottom: 30px;
+	}
+	main #subscribe .mainSubscribe form,
+	main #subscribe .mainSubscribe .subscribe_mail,
+	main #subscribe .mainSubscribe .subscribe_button{
+		width: 100%;
+		margin: 0 auto;
+	}
+	main #subscribe .mainSubscribe .subscribe_text{
+		width: 100%;
+	}
+	main #blog .mainBlog{
+		width: 100%;
+		padding: 30px 0 0;
+	}
+	main #blog .blogPictures{
+		display: block;
+	}
+	main #blog .blogPictures .blogItems .overlay::after{
+		display: none;
+	}
+	main #blog .blogPictures .blogItems .item_list h4{
+		margin-bottom: 0;
+	}
+	main #blog .blogPictures .blogItems .item_list p{
+		margin-top: 40px;
+	}
+	main #blog .blogPictures .blogItems .item_list .minText{
+		color: #fff;
+		margin-top: 10px;
+	}
+	main #blog .blog_button{
+		margin: 45px 0;
+	}
+	main #contact .mainForm form{
+		width: 100%;
+	}
+	main #contact .mainContact p{
+		width: 100%;
+		padding: 10px 28px;
+	}
+	main #contact .mainContact h2{
+		font-size: 4.625em;
+	}
+	main #subscribe .mainSubscribe{
+		padding-top: 20px;
+	}
+	main #contact .mainForm div{
+		margin-bottom: 40px;
+	}
+	main #contact .mainForm form .contactArea{
+		width: 100%;
+		min-width: unset;
+	}
+	footer .mainFooter{
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+	footer .mainFooter p{
+		margin: 0 auto;
+	}
+	body .arrow{
+		display: none;
+	}
+}
